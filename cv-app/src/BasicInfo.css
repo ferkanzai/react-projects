@@ -1,0 +1,32 @@
+#basic-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+h2, p {
+  margin: 0.5rem;
+}
+
+.social-networks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  margin: 0.2rem;
+}
+
+.icon {
+  width: 25px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+a:visited {
+  color: black;
+}

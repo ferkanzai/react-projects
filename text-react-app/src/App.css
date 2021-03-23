@@ -1,0 +1,62 @@
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  margin: 1rem;
+  background: #e0ae24;
+  outline: none;
+  border: 2px solid #427421;
+  color: #427421;
+  font-size: 1.5rem;
+}
+
+input {
+  margin: 1rem;
+  border: none;
+  border-bottom: 2px solid #427421;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.cards {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  position: relative;
+  padding: 50px;
+  margin: 10px;
+  word-break: break-all;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+
+}
+
+.checkbox {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transform: scale(2);
+}
+
+.blocked {
+  background-color: gray;
+}

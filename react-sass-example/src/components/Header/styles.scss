@@ -1,0 +1,7 @@
+@import '../../styles/common.scss';
+
+.header {
+  top: 0;
+  @include flex-center;
+  @include header-footer;
+}

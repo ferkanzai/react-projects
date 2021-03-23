@@ -1,0 +1,51 @@
+#basic-info{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(216, 207, 177, 0.774);
+}
+
+hr {
+  border: 0.5px solid rgba(235, 184, 19, 0.774);
+  margin: 0;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.experience-date {
+  margin: 0;
+  padding: 0;
+  color: rgba(235, 184, 19, 0.774);
+  font-size: 0.6rem;
+}
+
+.experience-title {
+  margin-bottom: 0.15rem;
+}
+
+h5 {
+  margin: 0.3rem 0rem;
+}
+
+#rigth {
+  width: 45%;
+}
+
+#left {
+  width: 45%;
+}
+
+.skill {
+  padding: 0.3rem;
+  margin: 0.4rem 0.2rem;
+  background-color: rgba(235, 184, 19, 0.774);
+  border-radius: 0.25rem;
+}
+
+#skills-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

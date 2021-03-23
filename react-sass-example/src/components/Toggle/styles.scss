@@ -1,0 +1,31 @@
+@import '../../styles/common.scss';
+
+.toggle {
+  border: 1px solid;
+  width: 55px;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+  @extend .flex;
+
+  &--on {
+    background-color: greenyellow;
+  }
+
+  &__button {
+    border: 1px solid rgb(151, 155, 155);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(151, 155, 155);
+    position: absolute;
+    
+    &--off {
+      left: -1px;
+    }
+
+    &--on {
+      right: -1px;
+    }
+  }
+}

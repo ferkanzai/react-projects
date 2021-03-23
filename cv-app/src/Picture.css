@@ -1,0 +1,7 @@
+#cv-img {
+  margin: 1rem;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 100%;
+  border: 2px solid rgba(235, 184, 19, 0.774);
+}

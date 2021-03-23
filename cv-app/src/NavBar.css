@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: space-between;
+  background-color: bisque;
+}
+
+#nav-title {
+  margin: 0.5rem;
+}
+
+#nav-bar {
+  margin: 0.5rem;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+  
+  #nav-bar {
+    max-width: 50%;
+  }
+}

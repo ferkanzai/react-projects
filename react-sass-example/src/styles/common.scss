@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-center {
+  @extend .flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@mixin header-footer {
+  border: 1px solid;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
